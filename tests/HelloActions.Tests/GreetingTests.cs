@@ -8,7 +8,7 @@ public class GreetingTests
     [Fact]
     public void MessageFor_includes_the_name()
     {
-        Assert.Equal("Hello, CI!", Greeting.MessageFor("GitHub Actions"));
+        Assert.Equal("Hello, GitHub Actions!", Greeting.MessageFor("GitHub Actions"));
     }
 
     [Fact]
